@@ -1,0 +1,18 @@
+%h1{ style: "text-align: center; font-size: 50px;" } Registered Users
+
+%ul{ style: "text-align: left; font-size: 25px;" }
+  - @users.each do |user|
+    %ul{ style: "display: flex; align-items: center; justify-content: center; margin-bottom: 10px;" }
+      %span{ style: "flex: 1;" }= user.email
+      - if user.email == @current_user_email
+        %span{ style: "font-size: 25px; color: green; margin-left: 20px;" } Active user
+      - else
+        - if Follow.exists?(follower_id: current_user.id, followed_id: user.id)
+          = button_to 'Following', follow_path(Follow.find_by(follower_id: current_user.id, followed_id: user.id)), method: :delete, class: ['btn', 'btn-secondary'], style: 'margin-left: 20px;'
+        - else
+          = button_to 'Follow', follows_path(followed_id: user.id), method: :post, class: ['btn', 'btn-primary'], style: 'margin-left: 20px;'
+%br/
+%br/
+.row
+  .col-sm-12
+    = link_to 'Back to Main Page', user_path(current_user), class: ['btn', 'btn-danger'], style: 'margin: 50 auto; text-align: center;'

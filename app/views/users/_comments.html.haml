@@ -1,0 +1,20 @@
+%h3
+  %strong
+    %u Comments
+
+- comments.each do |comment|
+  %p
+    - if comment.user
+      %strong= comment.user.email
+      %br/
+      = comment.text
+      - if comment.user == current_user || photo.user == current_user
+        = button_to 'Delete', comment_path(comment), method: :delete, data: { confirm: 'Are you sure?', comment_id: comment.id }, class: 'btn btn-danger btn-sm delete-comment', style: 'display: inline; margin-left: 10px;'
+
+
+= form_for Comment.new, url: comments_path, remote: true, html: { class: 'new_comment', id: 'comment-form' } do |f|
+  = f.hidden_field :photo_id, value: photo.id
+  .form-group
+    = f.label :text, 'Add a comment:'
+    = f.text_area :text, class: 'form-control', rows: 1
+    = f.submit 'Post Comment', class: 'btn btn-primary'
