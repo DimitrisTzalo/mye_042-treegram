@@ -1,4 +1,4 @@
-Web Technologies 2024 - Treegram Application
+Internet Technologies 2024 - Treegram Application
 
 Contributors
 
@@ -94,11 +94,11 @@ The UI leverages AJAX extensively for seamless user interactions without full pa
 
 The project has been splitted in 2 phases
 Phase 1: Extend Treegram with titles, follows, and comments using Ruby, Ruby on Rails, Haml, SQLite3.
-More imformations can be found in Report.pdf
+More imformations can be found in Readme.pdf
 
 Phase 2: Implement photo slideshow and comments popup. using JavaScript, jQuery, Ajax, Ruby on Rails, Haml, CSS.
 
-More imformations can be found in Readme.pdf
+More imformations can be found in Report.pdf
 
 I would like to sincerely thank my collaborator, Dimitrios Pagonis, for his valuable contribution and support throughout the project.
 
