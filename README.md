@@ -92,7 +92,13 @@ All sensitive interactions like photo and comment deletions are protected by use
 
 The UI leverages AJAX extensively for seamless user interactions without full page reloads.
 
-More imformations can be found in Report.pdf and Readme.pdf
+The project has been splitted in 2 phases
+Phase 1: Extend Treegram with titles, follows, and comments using Ruby, Ruby on Rails, Haml, SQLite3.
+More imformations can be found in Report.pdf
+
+Phase 2: Implement photo slideshow and comments popup. using JavaScript, jQuery, Ajax, Ruby on Rails, Haml, CSS.
+
+More imformations can be found in Readme.pdf
 
 Modified for the undergraduate course MYE042 Internet Technologies (Department of Computer Science and 
 Engineering, School of Engineering, University of Ioannina, Greece) by Stergios Anastasiadis. 
