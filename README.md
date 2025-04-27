@@ -90,13 +90,13 @@ rails db:migrate
 ```bash
 rails server
 ```
-##Routes Overview
+## Routes Overview
 
 User profiles and photo management under /users
 
 Photo interactions including comments at nested routes under /photos
 
-##Additional Notes
+## Additional Notes
 
 All sensitive interactions like photo and comment deletions are protected by user ownership verification.
 
