@@ -24,37 +24,37 @@ More imformations can be found in Report.pdf
 
 1. Photo Management
 
-Photo Uploading: Users can upload photos with mandatory titles.
+ Photo Uploading: Users can upload photos with mandatory titles.
 
-Validation: Titles are validated for presence upon photo upload.
+ Validation: Titles are validated for presence upon photo upload.
 
-Photo Deletion: Photos and their associated tags and comments can be deleted by their owners.
+ Photo Deletion: Photos and their associated tags and comments can be deleted by their owners.
 
 2. User Interactions
 
-Following System: Users can follow or unfollow other users, establishing follower-followed relationships.
+ Following System: Users can follow or unfollow other users, establishing follower-followed relationships.
 
-Comments: Users can comment on photos. Comments can be deleted by either the commenter or the photo owner.
+ Comments: Users can comment on photos. Comments can be deleted by either the commenter or the photo owner.
 
-Tags: Users can tag other users in photos.
+ Tags: Users can tag other users in photos.
 
 3. Slideshow Presentation
 
-Photos are displayed as a slideshow, automatically cycling through images every 3 seconds.
+ Photos are displayed as a slideshow, automatically cycling through images every 3 seconds.
 
-Slideshow pauses on mouse hover and resumes upon mouse exit.
+ Slideshow pauses on mouse hover and resumes upon mouse exit.
 
-Users can click on images to view them in an expanded popup with comments.
+ Users can click on images to view them in an expanded popup with comments.
 
 4. Interactive Popups
 
-Clicking on photos opens a detailed popup displaying the image, its caption, and user comments.
+ Clicking on photos opens a detailed popup displaying the image, its caption, and user comments.
 
-Users can add or delete comments directly within the popup.
+ Users can add or delete comments directly within the popup.
 
 5. Double-click Deletion Feature
 
-Photos can be quickly deleted with a double-click, if owned by the user. Confirmation prompts prevent accidental deletions.
+ Photos can be quickly deleted with a double-click, if owned by the user. Confirmation prompts prevent accidental deletions.
 
 ## Technologies Used
 
