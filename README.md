@@ -2,9 +2,9 @@
 
 ## Contributors
 
--Dimitrios Pagonis
+- Dimitrios Pagonis
 
--Dimitrios Tzalokostas
+- Dimitrios Tzalokostas
 
 ## Overview
 
