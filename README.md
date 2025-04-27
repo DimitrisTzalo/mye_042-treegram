@@ -6,7 +6,7 @@
 
 -Dimitrios Tzalokostas
 
-##Overview
+## Overview
 
 This repository contains a Ruby on Rails application designed for photo sharing and social interaction among users. It enables users to upload and manage photos, follow other users, view photo slideshows, and engage through comments and tagging.
 
