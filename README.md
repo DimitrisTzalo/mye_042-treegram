@@ -1,16 +1,26 @@
-Internet Technologies 2024 - Treegram Application
+## Internet Technologies 2024 - Treegram Application
 
-Contributors
+## Contributors
 
-Dimitrios Pagonis (ΑΜ: 4985)
+-Dimitrios Pagonis
 
-Dimitrios Tzalokostas (ΑΜ: 4994)
+-Dimitrios Tzalokostas
 
-Overview
+##Overview
 
 This repository contains a Ruby on Rails application designed for photo sharing and social interaction among users. It enables users to upload and manage photos, follow other users, view photo slideshows, and engage through comments and tagging.
 
-Main Features
+## Important Note
+The project has been splitted in 2 phases
+Phase 1: Extend Treegram with titles, follows, and comments using Ruby, Ruby on Rails, Haml, SQLite3.
+More imformations can be found in Readme.pdf
+
+Phase 2: Implement photo slideshow and comments popup. using JavaScript, jQuery, Ajax, Ruby on Rails, Haml, CSS.
+
+More imformations can be found in Report.pdf
+
+
+## Main Features
 
 1. Photo Management
 
@@ -46,7 +56,7 @@ Users can add or delete comments directly within the popup.
 
 Photos can be quickly deleted with a double-click, if owned by the user. Confirmation prompts prevent accidental deletions.
 
-Technologies Used
+## Technologies Used
 
 Ruby on Rails
 
@@ -58,48 +68,41 @@ JavaScript (jQuery) for interactive features
 
 AJAX for asynchronous interactions
 
-Setup Instructions
+## Setup Instructions
 
-Clone the repository:
+1. Clone the repository:
 
+ ``` bash
 git clone <repository-url>
 cd <repository-folder>
+ ```
 
-Install dependencies:
+2. Install dependencies:
 
-bundle install
+`bundle install`
 
-Setup Database:
-
+3. Setup Database:
+``` bash
 rails db:create
 rails db:migrate
-
-Run the application:
-
+```
+4. Run the application:
+```bash
 rails server
-
-Routes Overview
-
-Home: /
+```
+##Routes Overview
 
 User profiles and photo management under /users
 
 Photo interactions including comments at nested routes under /photos
 
-Additional Notes
+##Additional Notes
 
 All sensitive interactions like photo and comment deletions are protected by user ownership verification.
 
 The UI leverages AJAX extensively for seamless user interactions without full page reloads.
 
-The project has been splitted in 2 phases
-Phase 1: Extend Treegram with titles, follows, and comments using Ruby, Ruby on Rails, Haml, SQLite3.
-More imformations can be found in Readme.pdf
-
-Phase 2: Implement photo slideshow and comments popup. using JavaScript, jQuery, Ajax, Ruby on Rails, Haml, CSS.
-
-More imformations can be found in Report.pdf
-
+## Special Thanks
 I would like to sincerely thank my collaborator, Dimitrios Pagonis, for his valuable contribution and support throughout the project.
 
 Modified for the undergraduate course MYE042 Internet Technologies (Department of Computer Science and 
