@@ -22,7 +22,7 @@ More imformations can be found in Report.pdf
 
 ## Main Features
 
-1. Photo Management
+## 1. Photo Management
 
  Photo Uploading: Users can upload photos with mandatory titles.
 
@@ -30,7 +30,7 @@ More imformations can be found in Report.pdf
 
  Photo Deletion: Photos and their associated tags and comments can be deleted by their owners.
 
-2. User Interactions
+## 2. User Interactions
 
  Following System: Users can follow or unfollow other users, establishing follower-followed relationships.
 
@@ -38,7 +38,7 @@ More imformations can be found in Report.pdf
 
  Tags: Users can tag other users in photos.
 
-3. Slideshow Presentation
+## 3. Slideshow Presentation
 
  Photos are displayed as a slideshow, automatically cycling through images every 3 seconds.
 
@@ -46,13 +46,13 @@ More imformations can be found in Report.pdf
 
  Users can click on images to view them in an expanded popup with comments.
 
-4. Interactive Popups
+## 4. Interactive Popups
 
  Clicking on photos opens a detailed popup displaying the image, its caption, and user comments.
 
  Users can add or delete comments directly within the popup.
 
-5. Double-click Deletion Feature
+## 5. Double-click Deletion Feature
 
  Photos can be quickly deleted with a double-click, if owned by the user. Confirmation prompts prevent accidental deletions.
 
