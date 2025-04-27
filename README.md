@@ -106,4 +106,4 @@ The UI leverages AJAX extensively for seamless user interactions without full pa
 I would like to sincerely thank my collaborator, Dimitrios Pagonis, for his valuable contribution and support throughout the project.
 
 Modified for the undergraduate course MYE042 Internet Technologies (Department of Computer Science and 
-Engineering, School of Engineering, University of Ioannina, Greece) by Stergios Anastasiadis. 
+Engineering, School of Engineering, University of Ioannina, Greece) by Mr. Stergios Anastasiadis. 
