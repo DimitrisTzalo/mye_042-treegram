@@ -8,16 +8,17 @@
 
 ## Overview
 
-This repository contains a Ruby on Rails application designed for photo sharing and social interaction among users. It enables users to upload and manage photos, follow other users, view photo slideshows, and engage through comments and tagging.
+This repository contains a Ruby on Rails application designed for photo sharing and social interaction among users. 
+It enables users to upload and manage photos, follow other users, view photo slideshows, and engage through comments and tagging.
 
 ## Important Note
 The project has been splitted in 2 phases
 Phase 1: Extend Treegram with titles, follows, and comments using Ruby, Ruby on Rails, Haml, SQLite3.
-More imformations can be found in Readme.pdf
+More imformations can be found in [Readme.pdf](./Readme.pdf).
 
 Phase 2: Implement photo slideshow and comments popup. using JavaScript, jQuery, Ajax, Ruby on Rails, Haml, CSS.
 
-More imformations can be found in Report.pdf
+More imformations can be found in [Report.pdf](./Report.pdf).
 
 
 ## Main Features
